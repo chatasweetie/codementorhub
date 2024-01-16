@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+      <link rel="shortcut icon" href="/logo.png">
+      <title>CodeMentorHub</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://use.fontawesome.com/a0472c1a10.js"></script>
+      <link rel="stylesheet" type="text/css" href="/static/css/styling.css">
+      <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    {% block head %} Jazzy stuff here please {% endblock %}
+    </head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2">
+        <a href="/"> 
+          <!-- Small logo -->
+          <img alt="CodeMentorHub Logo" src="/static/img/logo.png" class="img-fluid small-logo">
+        </a>
+      </div>
+      <div class="col-6 col-md-10 d-flex align-items-center justify-content-end">
+        <p class="navbar-brand" id="tag">Get hints and feedback</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+ <div id="extending">
+  {% block content %} More jazzy stuff here, body content please  {% endblock %}
+
+
+</body>
+  <div>
+    <div class="container-fluid footer center footer-padding">
+        <p class="navbar-brand mar center">
+          Created by: <a href="https://www.jessicadeneearley-cha.com/jessica">Jessica Dene Earley</a>
+        </p>
+        <p> 
+          <a href="https://www.linkedin.com/in/jessicaearley">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/chatasweetie">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/chatasweetie">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.youtube.com/@chatasweetie/playlists">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/jessica.d.earley">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>   
+          <a href="https://www.jessicadeneearley-cha.com/"> 
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </a>
+        </p> 
+      </div>
+    </div><!-- /.container-fluid -->
+</div>
+</html>
