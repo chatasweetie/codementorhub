@@ -38,7 +38,8 @@ Users can submit their solutions in a designated text box. At any point, they ca
 
 ### How to run CodeMentorHub on Replit
 
-- Go to [Replit Project](https://replit.com/join/sjwypckqdo-jessicawantsstu)
+- Go to [Replit Project](https://replit.com/@jessicawantsstu/whiteboarding-practice)
+- Fork project
 - Click on Run button at the top of the webite
 
 

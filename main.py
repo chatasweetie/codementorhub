@@ -32,7 +32,7 @@ def gets_hint():
     to ajax request """
   
     problem = request.form.get('problem')
-    user_code_problem = request.form.get('code_problem')
+    user_code_problem = request.form.get('userSolution')
 
     feedback = get_hint(problem, user_code_problem)
     text_to_speech(feedback)
@@ -50,7 +50,7 @@ def gets_feedback():
     the text is then tts and returns the text and audio file 
     to ajax request """
     problem = request.form.get('problem')
-    user_code_problem = request.form.get('code_problem')
+    user_code_problem = request.form.get('userSolution')
 
     feedback = get_code_feedback(problem, user_code_problem)
 
